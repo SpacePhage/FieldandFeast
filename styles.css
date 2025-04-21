@@ -65,14 +65,24 @@ table {
 }
 
 /*Global Styles */
-
+body {
+    margin: 0 auto;
+    text-align: center;
+    
+}
 
 /* Media Query (medium) */
-@media
+@media screen and (min-width: ) {
+
+}
 
 /* Media Query (large) */
-@media
+@media screen and (min-width: ) {
+
+}
 
 /* Media Query (xl) */
-@media
+@media screen and (min-width: ) {
+
+}
 
