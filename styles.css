@@ -66,9 +66,55 @@ table {
 
 /*Global Styles */
 body {
-    margin: 0 auto;
-    text-align: center;
-    
+    font-family: Playfair Display, sans-serif;
+	background-color: var(--dark-charcoal);
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+header {
+	background-color: var(--midnight-blue);
+}
+
+header nav {
+	background-color: var(--champagne-gold);
+	text-align: center;
+
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--midnight-blue);
+	padding: 0.5rem 1rem;
+}
+
+header h1, header p {
+	color: var(--soft-white);
+	text-align: center;
+	background-color: var(--midnight-blue);
+}
+header img {
+	display: block;
+	margin: 0 auto;
+}
+
+main {
+	background-color: var(--soft-white);
+}
+
+footer {
+	background-color: var(--midnight-blue);
+	text-align: center;
+}
+
+h2 {
+	color: var(--midnight-blue);
 }
 
 /* Media Query (medium) */
