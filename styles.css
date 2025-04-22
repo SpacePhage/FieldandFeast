@@ -148,6 +148,8 @@ p {
 hr {
 	border: none;
 	border-top: 2px solid var(--champagne-gold);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 #offerings h2{
@@ -179,19 +181,30 @@ hr {
 	padding-bottom: 1rem;
 }
 
-.gallery-grid img {
-	display: block;
-	border-radius: 10px;
-	margin: 0 auto;
-	height: auto;
+figure {
+	background-color: var(--soft-white);
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgb(0, 0, 0, 0.8);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
-.gallery-grid  p {
-	font-style: italic;
-	font-size: 0.5rem;
-	text-align: center;
-	background-color: var(--soft-white);
+figure img {
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
 
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.75rem;
+	text-align: center;
+	color: var(--dark-charcoal);
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 #gallery a {
@@ -201,8 +214,9 @@ hr {
 	text-decoration: none;
 	color: var(--soft-white);
 	padding: 1rem 2rem;
-	border-radius: 10px;
-	margin: 0 auto;
+	border-radius: 8px;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 	font-weight: bold;
 }
 
@@ -211,9 +225,39 @@ footer {
 	text-align: center;
 }
 
+address {
+	padding-top: 3rem;
+}
+
 address a {
+	line-height: 1.5;
+}
+
+.contact-white {
+	color: var(--soft-white);
+}
+
+.contact-gold {
+	color: var(--champagne-gold);
+	font-weight: bold;
+}
+
+.social-media {
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;
+}
+
+.social-media a {
+	color: var(--champagne-gold);
+}
+
+#footer a {
 	text-decoration: none;
 }
+
+
+
+
 
 h2 {
 	color: var(--midnight-blue);
