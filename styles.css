@@ -150,7 +150,7 @@ hr {
 	border-top: 2px solid var(--champagne-gold);
 }
 
-#offerings {
+#offerings h2{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
@@ -174,9 +174,45 @@ hr {
 	margin-left: 1.5rem;
 }
 
+#gallery h2 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.gallery-grid img {
+	display: block;
+	border-radius: 10px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.gallery-grid  p {
+	font-style: italic;
+	font-size: 0.5rem;
+	text-align: center;
+	background-color: var(--soft-white);
+
+}
+
+#gallery a {
+	display: block;
+	text-align: center;
+	background-color: var(--olive-green);
+	text-decoration: none;
+	color: var(--soft-white);
+	padding: 1rem 2rem;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
 footer {
 	background-color: var(--midnight-blue);
 	text-align: center;
+}
+
+address a {
+	text-decoration: none;
 }
 
 h2 {
