@@ -128,8 +128,22 @@ main {
 	padding-right: 2rem;
 }
 
-#welcome {
-	
+#welcome h2 {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+	font-size: 2rem;
+}
+
+#welcome p {
+	padding-bottom: 1rem; 
+	line-height: 1.4;
+	font-size: 0.85rem;
+	max-width: 50ch;
+}
+
+hr {
+	border: none;
+	border-top: 2px solid var(--champagne-gold);
 }
 
 footer {
