@@ -69,7 +69,7 @@ body {
     font-family: Playfair Display, sans-serif;
 	background-color: var(--dark-charcoal);
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 500px;
 }
 
 header {
@@ -86,12 +86,27 @@ nav ul {
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
+	padding: 1rem 1rem;
 }
 
 nav a {
 	text-decoration: none;
 	color: var(--midnight-blue);
 	padding: 0.5rem 1rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+header h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	padding-bottom: 2rem;
+}
+
+header p {
+	font-style: italic;
+	padding-bottom: 2rem;
+	font-size: 1.25rem;
 }
 
 header h1, header p {
@@ -102,10 +117,19 @@ header h1, header p {
 header img {
 	display: block;
 	margin: 0 auto;
+	max-width: 20vw;
+	height: auto;
+	padding-bottom: 1rem;
 }
 
 main {
 	background-color: var(--soft-white);
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#welcome {
+	
 }
 
 footer {
